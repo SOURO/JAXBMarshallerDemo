@@ -24,7 +24,7 @@ public class App_Object_To_XML {
 			researcher.setName("Souro");
 			researcher.setResearchDuration((float) 3.5);
 			researcher.setResearcherId(5);
-			researcher.setReserachField("MachineLearning");
+			researcher.setReserachField("Machine Learning");
 
 			marshallerObj.marshal(researcher, new FileOutputStream(
 					"Researcher.xml"));
